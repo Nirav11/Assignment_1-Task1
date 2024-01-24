@@ -9,10 +9,10 @@ var mymap = L.map('mymap').setView([38.60, -90.677], 12);
 // 	ext: 'png'
 // }).addTo(mymap);
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	maxZoom: 19,
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(mymmap);
+L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map tiles by Stamen Design, under CC BY 3.0.',
+        maxZoom: 18
+}).addTo(mymap);
 
 
 var cameraIcon = L.icon({
