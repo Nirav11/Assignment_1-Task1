@@ -1,18 +1,18 @@
 var mymap = L.map('mymap').setView([38.60, -90.677], 12);
 
   // load a tile layer
-//  L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}@2x.png', {
-// 	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-// 	subdomains: 'abcd',
-// 	minZoom: 0,
-// 	maxZoom: 20,
-// 	ext: 'png'
-// }).addTo(mymap);
-
-L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: 'Map tiles by Stamen Design, under CC BY 3.0.',
-        maxZoom: 18
+ L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}@2x.png', {
+	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	subdomains: 'abcd',
+	minZoom: 0,
+	maxZoom: 20,
+	ext: 'png'
 }).addTo(mymap);
+
+// L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+//         attribution: 'Map tiles by Stamen Design, under CC BY 3.0.',
+//         maxZoom: 18
+// }).addTo(mymap);
 
 
 var cameraIcon = L.icon({
